@@ -7,7 +7,7 @@ On this activity, we showcased our knowledge on transforming our prior activity 
 - Turgo, Andrei Bernard P. - 2015112908 - Abnederio
 - Torres, Alistair Aaron S. - 2019100338 - ihallo
 - Dantes, Nikkos Adrielle - 2019131054 - Nacdantes
-- Solis, Jaymar
+- Solis, Jaymar - - jaysolis11
 - Borrinaga, Don Carlo - 2008103147 - dccb04
 
 
