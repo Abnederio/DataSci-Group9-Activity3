@@ -207,7 +207,7 @@ st.image(image9)
 
 st.write("## Observations:")
 st.write("""
-- URLs LEGITIMACY IS INDIRECTLY PROPORTIONAL TO THE NUMBER OF OCCURENCE OF DASH IN THE URL; MORE DASH, LESS LEGITIMATE. LESS DASH, MORE LEGITIMATE
+- URLs of the site's legitimacy is indirectly proportional to the number of occurrence of dashes in the URL; More dots typically show less legitimacy unlike URLs that has less dash.
 """)
 ##############################################################################################################################################################################################
 #Tenth Graph
@@ -221,5 +221,50 @@ st.image(image10)
 
 st.write("## Observations:")
 st.write("""
-- URLs LEGITIMACY IS INDIRECTLY PROPORTIONAL TO THE NUMBER OF OCCURENCE OF DOT IN THE URL; MORE DOT, LESS LEGITIMATE. LESS DOT, MORE LEGITIMATE
+- URLs of the site's legitimacy is indirectly proportional to the number of occurrence of dots in the URL; More dots typically show less legitimacy unlike URLs that has less dot.
+""")
+##############################################################################################################################################################################################
+#Conclusion
+
+st.write("## Conclusion: ")
+
+st.write("### Insights from Data Visualization and Data Analysis")
+
+st.write("""
+1. **Legitimacy of a URL that starts with an IP**  
+   - All of the URLs that start with an IP are illegitimate (Phishing sites).  
+   - Only 2.18% of phishing sites start with an IP Address in their URL.
+   
+2. **The Source of the URL of each and every phishing site**  
+   - Majority of phishing sites (93%) come from or are sourced from Phishing.Database.  
+   - Based on the schema, Majestic and Cisco-Umbrella do not have any phishing sites.
+   
+3. **Legitimate URLs that have a punycode**  
+   - The chart shows that 99.88% of legitimate URLs do not have a punycode.  
+   - Majority of legitimate URLs do not use a punycode.
+   
+4. **URLs with has_punycode**  
+   - The graph shows that a small number of URLs use a punycode.
+   
+5. **Legitimacy of a URL that has digits and internal links**  
+   - The graph indicates that domains without numbers are primarily connected to authentic URLs, with 1,250,000 real cases compared to 1,190,642 fraudulent ones.  
+   - All URLs with digits are considered illegitimate or fraudulent.
+
+6. **Legitimacy of a URL that has internal links**  
+   - Internal navigation functions are typically present on legal websites, but they are absent from the majority of phishing sites.  
+   - The pie chart shows that internal links are absent from 95.25% of phishing URLs.
+   
+7. **Category of URL, either phishing or legitimate**  
+   - Phishing and legitimate URLs are ranked equally at 50%.  
+   - Although not all URLs are phishing, the chart represents equal findings for both.
+   
+8. **URL Length in Characters**  
+   - The results indicate that not all URLs in the dataset are the same in character length.  
+   - Three URL versions resulted in different lengths in characters.
+   
+9. **Occurrences of Dash**  
+   - The symbol dash can be found in legitimate URLs, but with an increased occurrence of dashes in a URL, legitimacy decreases.
+
+10. **Occurrences of Dot**  
+    - The symbol dot can be found in legitimate URLs, but with an increased occurrence of dots in a URL, legitimacy decreases.
 """)
