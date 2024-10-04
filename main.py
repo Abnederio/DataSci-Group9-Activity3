@@ -195,4 +195,31 @@ st.write("## Observations:")
 st.write("""
 - As for the results of the URLS length in characters the URLS "Sub.another.example.org" has the most numbers and while the URLS"example.com" are the URLs that has the same number counts.
 """)
+##############################################################################################################################################################################################
+#Ninth Graph
+st.write("## 9. Legitimacy of a URL that has Dash.")
 
+imageurl9 = Image.open('assets/dashcount.png')
+st.image(imageurl9)
+
+image9 = Image.open('assets/dashtable.png')
+st.image(image9)
+
+st.write("## Observations:")
+st.write("""
+- URLs LEGITIMACY IS INDIRECTLY PROPORTIONAL TO THE NUMBER OF OCCURENCE OF DASH IN THE URL; MORE DASH, LESS LEGITIMATE. LESS DASH, MORE LEGITIMATE
+""")
+##############################################################################################################################################################################################
+#Tenth Graph
+st.write("## 10. Legitimacy of a URL that has Dot.")
+
+imageurl10 = Image.open('assets/dotcount.png')
+st.image(imageurl10)
+
+image10 = Image.open('assets/dottable.png')
+st.image(image10)
+
+st.write("## Observations:")
+st.write("""
+- URLs LEGITIMACY IS INDIRECTLY PROPORTIONAL TO THE NUMBER OF OCCURENCE OF DOT IN THE URL; MORE DOT, LESS LEGITIMATE. LESS DOT, MORE LEGITIMATE
+""")
