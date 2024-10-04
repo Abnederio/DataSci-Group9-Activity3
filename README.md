@@ -8,7 +8,7 @@ On this activity, we showcased our knowledge on transforming our prior activity 
 - Torres, Alistair Aaron S. - 2019100338 - ihallo
 - Dantes, Nikkos Adrielle - 2019131054 - Nacdantes
 - Solis, Jaymar
-- Borrinaga, Don Carlo
+- Borrinaga, Don Carlo - 2008103147 - dccb04
 
 
 ## 🔗 Project Link *change this after deployment
