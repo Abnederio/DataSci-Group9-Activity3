@@ -179,7 +179,7 @@ st.write("## 7. Category of URLs either phishing or legitimate.")
 image7 = Image.open('assets/SeventhGraph.png')
 st.image(image7)
 
-st.write("## Observations:")
+st.write("## Observations: ")
 st.write("""
 - According to the results of the Pie Chart for Category of URLs if either phishing or legitimate, it gave us a balanced outcome where the both percentage was 50%.
 - Although all URLs are not noticeable for phishing the chart represents equal findings for both.
